@@ -17,13 +17,13 @@
 
 우리는 오픈소스 기여 방식인 **Fork & Pull Request** 전략을 사용하여 각자의 커밋 기록을 관리합니다.
 
-1. **Fork:** 본 저장소(Upstream)를 자신의 계정으로 `Fork` 합니다.
+1. **Fork:** 본 저장소를 자신의 계정으로 `Fork` 합니다. 자신의 계정에 있는 레포지토리가 `origin`이 되고 본 저장소가 `upstream`이 됩니다.
 2. **Clone:** 본인 계정의 저장소를 로컬 환경에 `Clone` 합니다.
 3. **Pull:** 매주 `git pull upstream main`을 통해 최신 사항을 로컬에 반영합니다.
 4. **Branch:** 각 문제마다 새로운 브랜치를 생성합니다.
    - 브랜치명: `이름/주차-플랫폼-문제번호` (예: `kim/01-boj-1000`)
 5. **Push:** 풀이가 완료된 코드를 자신의 `origin` 레포지토리에 푸시합니다.
-6. **PR:** `origin`에서 `Upstream:main` 브랜치로 **Pull Request**를 생성합니다.
+6. **PR:** `origin`에서 `upstream:main` 브랜치로 **Pull Request**를 생성합니다.
 
 ---
 
