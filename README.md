@@ -27,6 +27,14 @@
 7. **PR:** `origin`에서 `upstream:main` 브랜치로 **Pull Request**를 생성합니다.
 8. **Code Review:** 다른 사람의 풀이를 보고 궁금한 점이 있거나, 좋은 점 등 의견을 남기고 싶다면 PR 내에서 코드 리뷰를 통해 소통하시면 됩니다.
 
+### 예시
+1. 동기화: git checkout main → git pull upstream main
+2. 내 Origin 업데이트: git push origin main (이건 선택 나중에 웹에서 sync fork를 해도 됨)
+3. 내 작업용 브랜치 생성: git checkout -b name/week01
+   **중요: main에서 직접 풀지 말고, 최신화된 main에서 새 브랜치를 따서 작업하세요.**
+4. 작업 후 Push: git push origin name/week01
+5. PR 전송: 내 브랜치에서 upstream/main으로 PR
+
 ---
 
 ## ✅ 커밋 메시지 규칙 (Commit Convention)
