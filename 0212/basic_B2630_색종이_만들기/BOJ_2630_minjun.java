@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class _2630 {
+public class BOJ_2630_minjun {
 	static int blue;
 	static int white;
 	static boolean[][] paper;
